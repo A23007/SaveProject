@@ -34,7 +34,7 @@ public class DeleteDataScript : MonoBehaviour
     public void DeletePlayer1Button()
     {
         deleteNum = 1;
-       deleteConfirmation.SetActive(true);//削除確認画面の表示
+    
         Debug.Log("player1の削除ボタンが押されました");
 
         // Player1の保存先パスを組み立て
@@ -43,16 +43,20 @@ public class DeleteDataScript : MonoBehaviour
         // セーブデータが存在する場合
         if (File.Exists(player1FilePath))
         {
+            deleteConfirmation.SetActive(true);//削除確認画面の表示
             QuickSaveReader.Create("Player1NameInputs").Read<string>("PlayerName1", (playerName) =>
             {
 
                 deletePlayerName.text = "「" + playerName + "」";
+                deleteConfirmation.SetActive(true);//削除確認画面の表示
+                Debug.Log("確認画面を表示しました");
 
             });
         }
         else
         {
             Debug.Log("セーブファイルが見つかりません：" + player1FilePath);
+           
         }
 
     }
@@ -138,7 +142,7 @@ public void DeletePlayer2Button()
             File.Delete(filePath);
             Debug.Log($"{fileName} のファイルを削除しました。");
         }
-        Debug.Log("消したいPlayer" +deleteNum);
+
         // ボタンのテキストを更新
         switch (deleteNum)
         {
