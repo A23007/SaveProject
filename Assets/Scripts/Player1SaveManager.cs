@@ -13,7 +13,7 @@ public class Player1SaveManager : MonoBehaviour
     private void Awake()
     {
         // 保存先を任意のパスにしたい場合ここで設定（例：デスクトップ）
-         QuickSaveGlobalSettings.StorageLocation = "C:/Users/A23007/Desktop/Group/Images/Unity/SaveProject/Assets/PlayerData";
+         QuickSaveGlobalSettings.StorageLocation = "C:/Users/A23007/Desktop/Group/MyProject/Assets/PlayerData";
     }
 
     public void Save()
