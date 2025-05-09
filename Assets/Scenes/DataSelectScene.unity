@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 72891057}
   - component: {fileID: 72891059}
   - component: {fileID: 72891058}
+  - component: {fileID: 72891060}
   m_Layer: 5
   m_Name: Txt_DeleteName
   m_TagString: Untagged
@@ -180,7 +181,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_sharedMaterial: {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -255,6 +257,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72891056}
   m_CullTransparentMesh: 1
+--- !u!225 &72891060
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72891056}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &146570823
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,7 +330,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_sharedMaterial: {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -402,6 +417,7 @@ GameObject:
   - component: {fileID: 151338399}
   - component: {fileID: 151338401}
   - component: {fileID: 151338400}
+  - component: {fileID: 151338402}
   m_Layer: 5
   m_Name: Img_Deleteconfirmation
   m_TagString: Untagged
@@ -429,7 +445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -42}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1064.448, y: 579.421}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &151338400
@@ -470,6 +486,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151338398}
   m_CullTransparentMesh: 1
+--- !u!225 &151338402
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151338398}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &198963348
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,7 +710,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_sharedMaterial: {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -1051,6 +1080,7 @@ GameObject:
   - component: {fileID: 347166955}
   - component: {fileID: 347166957}
   - component: {fileID: 347166956}
+  - component: {fileID: 347166958}
   m_Layer: 5
   m_Name: Txt_Waring
   m_TagString: Untagged
@@ -1101,7 +1131,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_sharedMaterial: {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -1176,6 +1207,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 347166954}
   m_CullTransparentMesh: 1
+--- !u!225 &347166958
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347166954}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &355704016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,7 +1280,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_sharedMaterial: {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -1373,7 +1417,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_sharedMaterial: {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -1459,6 +1504,7 @@ GameObject:
   - component: {fileID: 731856370}
   - component: {fileID: 731856372}
   - component: {fileID: 731856371}
+  - component: {fileID: 731856373}
   m_Layer: 5
   m_Name: Txt_No
   m_TagString: Untagged
@@ -1509,7 +1555,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_sharedMaterial: {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -1584,6 +1631,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731856369}
   m_CullTransparentMesh: 1
+--- !u!225 &731856373
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731856369}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &856970126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,6 +2032,7 @@ GameObject:
   - component: {fileID: 1175684463}
   - component: {fileID: 1175684462}
   - component: {fileID: 1175684465}
+  - component: {fileID: 1175684466}
   m_Layer: 5
   m_Name: But_Agreement
   m_TagString: Untagged
@@ -2111,6 +2171,18 @@ MonoBehaviour:
   player1ButtonText: {fileID: 2083033609}
   player2ButtonText: {fileID: 258396651}
   player3ButtonText: {fileID: 1904193006}
+--- !u!225 &1175684466
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175684460}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1289706845
 GameObject:
   m_ObjectHideFlags: 0
@@ -2380,6 +2452,7 @@ GameObject:
   - component: {fileID: 1330731188}
   - component: {fileID: 1330731190}
   - component: {fileID: 1330731189}
+  - component: {fileID: 1330731191}
   m_Layer: 5
   m_Name: Img_DeleteconfirmationBack
   m_TagString: Untagged
@@ -2405,7 +2478,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1330731189
 MonoBehaviour:
@@ -2420,7 +2493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.7882353}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2445,6 +2518,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330731187}
   m_CullTransparentMesh: 1
+--- !u!225 &1330731191
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330731187}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1340161643
 GameObject:
   m_ObjectHideFlags: 0
@@ -2456,6 +2541,7 @@ GameObject:
   - component: {fileID: 1340161644}
   - component: {fileID: 1340161646}
   - component: {fileID: 1340161645}
+  - component: {fileID: 1340161647}
   m_Layer: 5
   m_Name: Txt_Yes
   m_TagString: Untagged
@@ -2506,7 +2592,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_sharedMaterial: {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -2581,6 +2668,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340161643}
   m_CullTransparentMesh: 1
+--- !u!225 &1340161647
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340161643}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1581680499
 GameObject:
   m_ObjectHideFlags: 0
@@ -2817,7 +2916,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_sharedMaterial: {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -3104,7 +3204,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_sharedMaterial: {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -3240,7 +3341,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_sharedMaterial: {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2525367157470034009, guid: b4c5a47eac89f724bae6690b5bc0d69e, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -3328,6 +3430,7 @@ GameObject:
   - component: {fileID: 2086416047}
   - component: {fileID: 2086416046}
   - component: {fileID: 2086416049}
+  - component: {fileID: 2086416050}
   m_Layer: 5
   m_Name: But_Disagreement
   m_TagString: Untagged
@@ -3466,6 +3569,18 @@ MonoBehaviour:
   player1ButtonText: {fileID: 2083033609}
   player2ButtonText: {fileID: 258396651}
   player3ButtonText: {fileID: 1904193006}
+--- !u!225 &2086416050
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086416044}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
